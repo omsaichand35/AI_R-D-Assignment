@@ -1,0 +1,14 @@
+lang      fertility (tok/word)    tok/char
+------------------------------------------
+eng                       1.42       0.227
+hin                       7.69       1.515
+ben                      13.36       2.014
+tel                      21.86       2.693
+tam                      25.06       2.668
+mar                      11.24       1.595
+
+hin is 5.41x the fertility of eng (worse tokenization)
+ben is 9.40x the fertility of eng (worse tokenization)
+tel is 15.38x the fertility of eng (worse tokenization)
+tam is 17.62x the fertility of eng (worse tokenization)
+mar is 7.91x the fertility of eng (worse tokenization)

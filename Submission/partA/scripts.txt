@@ -1,0 +1,12 @@
+``` with out lower, strip(" "), baseline
+
+py -3.11 fertility.py --corpus eng=corpus_sample/eng_sample.txt --corpus hin=corpus_sample/hin_sample.txt --tokenizer gpt2
+
+``` with multiligual datasets.
+
+py -3.11 fertility.py --corpus hin=data/hin_Deva --corpus ben=data/ben_Beng --corpus tel=data/tel_Telu --corpus tam=data/tam_Taml --corpus mar=data/mar_Deva --tokenizer gpt2
+
+``` with multiple tokenizers.
+
+ py -3.11 fertility.py --corpus eng=data/eng_Latn --corpus hin=data/hin_Deva --corpus ben=data/ben_Beng --corpus tel=data/tel_Telu --corpus tam=data/tam_Taml --corpus mar=data/mar_Deva --tokenizer o200k_base --tokenizer hf:sarvamai/sarvam-2b
+
